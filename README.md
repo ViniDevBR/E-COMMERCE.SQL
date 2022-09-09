@@ -33,3 +33,7 @@ Refinamento de um projeto conceitual de banco de dados sobre e-commerce como pri
   – Pode ter cadastrado mais de uma forma de pagamento
 - Entrega 
   – Possui status e código de rastreio
+
+<p align="center">
+  <img src="./assets/E-COMMERCE.png" width="70%" />
+</p>

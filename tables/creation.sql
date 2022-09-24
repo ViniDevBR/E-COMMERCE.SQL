@@ -70,6 +70,8 @@ create table entrega (
     constraint unique_entrega unique (codigo)
 );
 
+alter table produto
+	add Pname varchar(20);
 create table produto (
     idProduto int NOT NULL,
     categoria enum('Eletronicos', 'Musical', 'Alimentos', 'Outros') default 'Outros',

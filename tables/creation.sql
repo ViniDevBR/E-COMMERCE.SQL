@@ -23,7 +23,7 @@ create table contaPJ (
 create table contaPF (
     idContaPF int NOT NULL,
     idCliente int NOT NULL,
-    CPF char(14) NOT NULL,
+    CPF char(9) NOT NULL,
     primary key (idContaPF),
     constraint fk_contaPF_idCliente foreign key (idCliente) references cliente(idCliente),
     constraint unique_CPF unique (CPF)
